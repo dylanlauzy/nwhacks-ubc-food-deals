@@ -843,6 +843,10 @@ video {
   font-size: 36px;
 }
 
+.text-\[48px\] {
+  font-size: 48px;
+}
+
 .font-normal {
   font-weight: 400;
 }
@@ -913,6 +917,21 @@ html {
 .hover\:bg-secondaryLightGreen:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(146 222 139 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-secondaryDarkGreen:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 182 139 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-primaryDarkGreen:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 129 116 / var(--tw-bg-opacity));
+}
+
+.hover\:text-background:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 252 245 / var(--tw-text-opacity));
 }
 
 @media (min-width: 480px) {

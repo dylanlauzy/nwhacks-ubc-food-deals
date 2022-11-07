@@ -23,7 +23,7 @@ const Features = () =>  (
         Find the <span className="text-secondaryDarkGreen">cheap</span>, <span className="text-secondaryLightGreen">healthy</span>, food that you need.
       </h2>
       <p className="font-poppins font-normal text-[18px] leading-[30.8px] max-w-[470px] mt-5">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+      Food shouldn't need to be a source of stres for a busy student juggling classes, clubs and calendar parties. With nürish, it doesn't need to be.
       </p>
     </div>
 
