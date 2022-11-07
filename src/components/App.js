@@ -6,9 +6,9 @@ import Hero from "./Hero";
 function App() {
   return (
     <div>
-      <OptionList/>
         <Navbar />
         <Hero />
+        <OptionList/>
     </div>
   );
 }

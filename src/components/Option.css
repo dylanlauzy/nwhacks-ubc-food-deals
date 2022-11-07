@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-body {
+.wrapper {
     text-align: center;
     padding: 30px;
-    background: #f8f4f2;
     font-family: 'Poppins', sans-serif;
   }
   
@@ -66,3 +65,19 @@ body {
     color: #028174;
   }
 
+body {
+    background-color: #fffcf5;
+}
+
+.format {
+    justify-content: center;
+}
+
+.buttonsGroup {
+    justify-content: center;
+    display: flex;
+}
+
+.buttton {
+    margin: 20px !important;
+}
