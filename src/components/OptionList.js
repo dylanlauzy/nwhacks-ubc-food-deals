@@ -5,9 +5,10 @@ import subway from "./images/subway.png"
 import nori from "./images/nori.png"
 import bodyclub from "./images/bodyclub.jpeg"
 import unclefatih from "./images/unclefatih.jpeg"
-import mcdonalds from "./images/mcdonalds.jpeg"
+import mcd from "./images/mcd.png"
 import chatime1 from "./images/chatime1.jpeg"
 import freshii from "./images/freshii.png"
+import kok from "./images/kok.png"
 import "./Option.css";
 import { type } from "@testing-library/user-event/dist/type";
 
@@ -16,6 +17,7 @@ const typeEnum = {
   healthy: "Healthy",
   quickMeal: "Quick Meal",
   drink: "Drink",
+  vegan: "Vegan"
 };
 
 const OptionList = () => {
@@ -54,7 +56,7 @@ const OptionList = () => {
       id: 4,
     },
     {
-      picPath: mcdonalds,
+      picPath: mcd,
       name: "McDonald's",
       deal: "App coupons available (includes 4.99 Bic Macs)",
       expDate: "Exp. December 1, 2022",
@@ -74,8 +76,16 @@ const OptionList = () => {
       name: "Freshii",
       deal: "Buy one get one Kung Fu Bowl",
       expDate: "Exp. January 1, 2022",
-      foodType: typeEnum.healthy,
+      foodType: typeEnum.vegan,
       id: 7  
+    },
+    {
+      picPath: kok,
+      name: "Kokoro",
+      deal: "Free Iced Milk Tea for takout orders over 50$",
+      expDate: "Exp. January 1, 2022",
+      foodType: typeEnum.vegan,
+      id: 8 
     }
   ]);
 
@@ -135,7 +145,22 @@ const OptionList = () => {
         key={option.id}
       />
     ));
-  } else {
+  } else if (filter === typeEnum.vegan) {
+    const filteredOptions = options.filter(
+        (option) => option.foodType === filter
+    );
+    cards = filteredOptions.map((option) => (
+        <Option
+          picPath={option.picPath}
+          name={option.name}
+          deal={option.deal}
+          expDate={option.expDate}
+          foodType={option.foodType}
+          key={option.id}
+        />
+      ));
+  }
+  else {
     cards = options.map((option) => (
       <Option
         picPath={option.picPath}
@@ -156,6 +181,11 @@ const OptionList = () => {
   function onHealthyClick(e) {
     e.preventDefault();
     setFilter(typeEnum.healthy);
+  }
+
+  function onVeganClick(e) {
+    e.preventDefault();
+    setFilter(typeEnum.vegan)
   }
 
   function onQuickMealClick(e) {
@@ -182,6 +212,12 @@ const OptionList = () => {
           onClick={onHealthyClick}
         >
           Healthy
+        </button>
+        <button
+          className="rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
+          onClick={onVeganClick}
+        >
+          Vegan
         </button>
         <button
           className="rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"

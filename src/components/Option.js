@@ -7,11 +7,7 @@ const Option = (props) => {
     <div className="wrapper">
       <div className="a-box">
         <div className="img-container">
-          <div className="img-inner">
-            <div className="inner-skew">
               <img src={props.picPath} />
-            </div>
-          </div>
         </div>
         <div className="text-container">
           <h3>{props.name}</h3>
