@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
 
-.a-box {
-  text-align: center;
-  padding: 30px;
-  background: #f8f4f2;
-  font-family: 'Poppins', sans-serif;
-  display: inline-block;
-  width: 240px;
-  text-align: center;
-  padding: 5px;
+.wrapper {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .a-box {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    padding: 5px;
   }
   
   .img-container {
@@ -63,3 +65,19 @@
     color: #028174;
   }
 
+body {
+    background-color: #fffcf5;
+}
+
+.format {
+    justify-content: center;
+}
+
+.buttonsGroup {
+    justify-content: center;
+    display: flex;
+}
+
+.buttton {
+    margin: 20px !important;
+}
