@@ -172,25 +172,25 @@ const OptionList = () => {
     <div id="deals">
       <div className="buttonsGroup">
         <button
-          className="rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
+          className="hover:bg-primaryDarkGreen hover:text-background transition-colors transition-ease-in rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
           onClick={onAllClick}
         >
           All Deals
         </button>
         <button
-          className="rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
+          className="hover:bg-primaryDarkGreen hover:text-background transition-colors transition-ease-in rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
           onClick={onHealthyClick}
         >
           Healthy
         </button>
         <button
-          className="rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
+          className="hover:bg-primaryDarkGreen hover:text-background transition-colors transition-ease-in rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
           onClick={onQuickMealClick}
         >
           Quick Meal
         </button>
         <button
-          className="rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
+          className="hover:bg-primaryDarkGreen hover:text-background transition-colors transition-ease-in rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
           onClick={onDrinksClick}
         >
           Drinks

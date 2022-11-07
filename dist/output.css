@@ -676,6 +676,18 @@ video {
   width: 75%;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[190px\] {
+  width: 190px;
+}
+
+.w-\[180px\] {
+  width: 180px;
+}
+
 .max-w-\[470px\] {
   max-width: 470px;
 }
