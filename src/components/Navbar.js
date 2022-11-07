@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { navbarItems } from '..'
-import logo from './assets/airbnb.png'
+import logo from './assets/nurish.png'
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
       <img src={logo} className="w-[130px]"/>
       <ul className="justify-end items-center sm:flex flex-1 list-none hidden">
         {navbarItems.map((elem, index) => (
-          <li key={elem.id} className={`text-[20px] cursor-pointer ${index === navbarItems.length - 1 ? "mr-0" : "mr-10"}`}>
+          <li key={elem.id} className={`font-poppins text-[20px] cursor-pointer ${index === navbarItems.length - 1 ? "mr-0" : "mr-10"}`}>
             <a href={`#${elem.id}`}>{elem.title}</a>
           </li>
         ))}
