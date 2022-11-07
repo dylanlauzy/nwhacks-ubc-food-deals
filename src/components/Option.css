@@ -1,61 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
-
-.wrapper {
-    text-align: center;
-    padding: 30px;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .a-box {
-    display: inline-block;
-    width: 240px;
-    text-align: center;
-    padding: 5px;
-  }
-  
-  .img-container {
-      height: 230px;
-      width: 200px;
-      overflow: hidden;
-      border-radius: 0px 0px 20px 20px;
-      display: inline-block;
-  }
-  
-  .img-container img {
-      height: 100%;
-      object-fit: cover;
-  }
-  
-  .inner-skew {
-      display: inline-block;
-      border-radius: 20px;
-      overflow: hidden;
-      padding: 0px;
-      font-size: 0px;
-      margin: 30px 0px 0px 0px;
-      background: #c8c2c2;
-      height: 250px;
-      width: 200px;
-  }
-  
-  .text-container {
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
-    padding: 120px 20px 20px 20px;
-    border-radius: 20px;
-    background: #fff;
-    margin: -120px 0px 0px 0px;
-    line-height: 19px;
-    background: #FFE3B3;
-    color: black;
-  }
-  
-  .text-container h3 {
-    margin: 10px 0px 10px 0px;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .text-container p {
+.text-container p {
     padding: 2px;
   }
 
@@ -79,3 +23,54 @@ body {
 .buttton {
     margin: 20px !important;
 }
+
+.wrapper {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .a-box {
+    display: inline-block;
+    width: 230px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .img-container {
+      height: 230px;
+      width: 200px;
+      overflow: hidden;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+  }
+  
+  .img-container img {
+      height: 100%;
+      object-fit: cover;
+      display: inline-block;
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 0px;
+      font-size: 0px;
+      margin: 30px 0px 0px 0px;
+      background: black;
+      height: 200px;
+      width: 200px;
+  }
+  
+  .text-container {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    background: #FFE3B3;
+    color: black;
+  }
+  
+  .text-container h3 {
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
