@@ -35,20 +35,20 @@ export const features = [
     icon: search,
     title: "Find affordable food",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Search through our collection of deals from vendors on campus to find your next meal",
   },
   {
     id: "feature-2",
     icon: bowl,
     title: "Enjoy your meal",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Collect your coupon code, tell your friends and enjoy your food in-store.",
   },
   {
     id: "feature-3",
     icon: money,
     title: "Keep saving",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Get your moneys worth and keep coming back to nürish to enjoy more great savings!",
   },
 ];

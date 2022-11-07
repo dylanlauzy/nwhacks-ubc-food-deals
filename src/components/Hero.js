@@ -12,12 +12,12 @@ const Hero = () => {
               <span className="text-secondaryDarkGreen"> UBC</span>
             </p>
         </div>
-        <h1 className="font-semibold font-poppins text-[36px] mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+        <h1 className="font-semibold font-poppins text-[48px] mb-5">
+        Battling food insecurity by helping students find affordable food.
         </h1>
 
         <a href="#deals">
-        <button className="font-poppins hover:bg-secondaryLightGreen transition-colors rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige">See More Deals</button>
+        <button className="font-poppins hover:bg-secondaryLightGreen transition-colors rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige">Show me the deals</button>
         </a>
       </div>
 

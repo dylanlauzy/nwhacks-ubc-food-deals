@@ -9,7 +9,7 @@ const Option = (props) => {
         <div className="img-container">
               <img src={props.picPath} />
         </div>
-        <div className="text-container">
+        <div className="hover:text-background hover:bg-primaryDarkGreen transition-colors transition-ease-in text-container">
           <h3>{props.name}</h3>
           <div>
             <p>{props.deal}</p>
