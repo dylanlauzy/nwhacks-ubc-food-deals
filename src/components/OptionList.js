@@ -138,7 +138,7 @@ const OptionList = () => {
   }
 
   return (
-    <div>
+    <div id="deals">
       <div className="buttonsGroup">
         <button
           className="rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"

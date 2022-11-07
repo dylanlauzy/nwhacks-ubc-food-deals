@@ -26,10 +26,6 @@ export const navbarItems = [
   {
     id: 'deals',
     title: 'deals'
-  },
-  {
-    id: 'team',
-    title: 'team'
   }
 ]
 

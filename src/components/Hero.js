@@ -16,7 +16,9 @@ const Hero = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
         </h1>
 
+        <a href="#deals">
         <button className="font-poppins hover:bg-secondaryLightGreen transition-colors rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige">See More Deals</button>
+        </a>
       </div>
 
       <div className="flex-1 flex md:my-0 my-10 relative">

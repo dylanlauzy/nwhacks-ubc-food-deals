@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about" className="flex flex-row sm:py-16 py-6 bg-background">
       <div className="flex-1 flex md:my-0 my-10 relative">
-        <img src={graphic} className="w-[50%] h-[100%] relative z-[5]"/>
+        <img src={graphic} className="w-[75%] h-[100%] relative z-[5]"/>
       </div>
       <div className="pl-10 flex-1 flex flex-col justify-center items-start">
         <h1 className="font-normal text-[32px] mb-5">
