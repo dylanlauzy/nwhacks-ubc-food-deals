@@ -220,7 +220,7 @@ const OptionList = () => {
           Vegan
         </button>
         <button
-          className="rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
+          className="hover:bg-primaryDarkGreen hover:text-background transition-colors transition-ease-in rounded-2xl py-3 px-5 text-[18px] bg-secondaryBeige buttton"
           onClick={onQuickMealClick}
         >
           Quick Meal
